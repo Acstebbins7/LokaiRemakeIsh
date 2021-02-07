@@ -21,7 +21,10 @@
   top: 0;
   height: 40px;
   width: 100%;
+  font-family: "Calibre", Helvetica, Arial, Sans-Serif;
+  font-weight: normal;
   font-style: normal;
+  font-size: 14px;
   background-color: white;
   justify-content: space-around;
   align-items: center;
@@ -39,6 +42,7 @@
 }
 
 .scroll a {
+  opacity: 100%;
   color: blue;
 }
 
@@ -244,6 +248,7 @@
 /* 44444444444444444444         CLASSIC LOKAI        4444444444444444444444444 */
 
 .row4 {
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -278,8 +283,7 @@
 /* 555555555555555555555555            CAUSE COLLECTION          5555555555555555555555555555555 */
 
 .row5 {
-  flex-direction: row;
-  width: 50%;
+  width: 48%;
   height: 300px;
   background-image: url("./lokai/images/LOKAI/handsup.png");
   background-size: cover;
@@ -294,14 +298,14 @@
   padding: 20px;
 }
 
-#storyD h1 {
+#half-width1 h1 {
   padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
   justify-content: center;
 }
 
-#storyD {
+#half-width1 {
   height: 300px;
   width: 400px;
   display: flex;
@@ -310,7 +314,7 @@
   color: white;
 }
 
-#storyD button {
+#half-width1 button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -320,7 +324,7 @@
   color: black;
 }
 
-#storyD button:hover {
+#half-width1 button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,7 +338,7 @@
 
 .row6 {
   flex-direction: row;
-  width: 50%;
+  width: 48%;
   background-image: url("./lokai/images/LOKAI/onefist.png");
   height: 300px;
   background-size: cover;
@@ -349,14 +353,14 @@
   padding: 20px;
 }
 
-#storyD h1 {
+#half-width2 h1 {
   padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
   justify-content: center;
 }
 
-#storyD {
+#half-width2 {
   height: 300px;
   width: 500px;
   display: flex;
@@ -365,7 +369,7 @@
   color: white;
 }
 
-#storyD button {
+#half-width2 button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,7 +379,7 @@
   color: black;
 }
 
-#storyD button:hover {
+#half-width2 button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
