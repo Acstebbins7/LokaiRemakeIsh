@@ -39,15 +39,16 @@
   padding-top: 20px;
   display: flex;
   justify-content: center;
+  color: grey;
 }
 
 .scroll a {
   opacity: 100%;
-  color: blue;
+  color: grey;
 }
 
 .scroll a:hover {
-  color: black;
+  color: blue;
 }
 
 /* 11111111111111     TOP IMAGE & STORY       111111111111111111111111111111111111111 */
@@ -155,6 +156,14 @@
   align-items: center;
   /* padding: 20px; */
 }
+.row2 a {
+  opacity: 100%;
+  color: grey;
+}
+
+.row2 a:hover {
+  color: blue;
+}
 
 #storyC {
   height: 300px;
@@ -218,14 +227,14 @@
   flex-direction: column;
   color: white;
 }
-
+/* 
 #NA a {
   color: white;
 }
 
 #NA a:hover {
   color: black;
-}
+} */
 
 #NA button {
   display: flex;
@@ -233,16 +242,16 @@
   align-items: center;
   height: 40px;
   width: 200px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 #NA button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /* 44444444444444444444         CLASSIC LOKAI        4444444444444444444444444 */
@@ -282,9 +291,15 @@
 
 /* 555555555555555555555555            CAUSE COLLECTION          5555555555555555555555555555555 */
 
-.row5 {
+.DD {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.DD .row5 {
   width: 48%;
-  height: 300px;
+  height: auto;
   background-image: url("./lokai/images/LOKAI/handsup.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -292,13 +307,14 @@
   text-align: center;
 }
 
-.row5 a {
+.DD .row5 a {
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 
 #half-width1 h1 {
+  flex-direction: row;
   padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
@@ -393,7 +409,7 @@
 
 .row7 {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   height: 800px;
